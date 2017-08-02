@@ -16,7 +16,7 @@ This is part of a series of projects exploring different methods to autonomously
 
 ### Screenshot with debugging output
 
-![alt tag](../CarND-Path-Planning-Project/img/screenshot.jpg "Screenshot with debugging output")
+![alt tag](CarND-Path-Planning-Project/img/pathplanner.png "Screenshot with debugging output")
 
 ## Structure
 
