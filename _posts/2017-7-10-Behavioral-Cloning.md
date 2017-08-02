@@ -10,6 +10,7 @@ Two tracks were provided. Track 1 is the what the model is trained on with the s
 While optional, I chose to run the simulator with higher grahics settings that included shadows to further increase the challenge.  
 
 This is part of a series of projects exploring different methods to autonomously drive a car around the given track. Others are:
+* [Path Planning](https://github.com/merbar/CarND-Path-Planning-Project)
 * [MPC Control](https://github.com/merbar/CarND-MPC-Project)
 * [PID Control](https://github.com/merbar/CarND-PID-Control-Project)
 
