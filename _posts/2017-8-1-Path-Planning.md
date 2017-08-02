@@ -17,7 +17,7 @@ This is part of a series of projects exploring different methods to autonomously
 
 ### Screenshot with debugging output
 
-![alt tag](https://github.com/merbar/CarND-Path-Planning-Project/blob/master/img/screenshot.jpg "Screenshot with debugging output")
+![alt tag](img/pp_screenshot.jpg "Screenshot with debugging output")
 
 ## Structure
 
@@ -36,7 +36,7 @@ The ~6.5km long track goes in a circle and is filled by a random population of A
 Provided are waypoints along the track as well as synthetic localization and sensor fusion data sent from the simulator. Data is in X/Y world space coordinates as well as Frenet S/D. Sensor fusion data contains position and velocity information of the twelve closest vehicles in travel direction.
 
 **Plot of track**  
-![alt tag](https://github.com/merbar/CarND-Path-Planning-Project/blob/master/img/plot_track.png "Plot of track")
+![alt tag](img/pp_plot_track.png "Plot of track")
 
 The car uses a perfect controller and will visit every (x,y) point it receives in a list every .02 seconds.
 
@@ -55,7 +55,7 @@ These trajectories are then evaluated for feasibility (no collisions, does not e
 It became slightly tricky when trying to get accurate start states for velocity and acceleration to generate feasible trajectories. The path planning happens in Frenet coordinates and the simulator does not send accurate velocity and acceleration for the s and d components. Conversions from X/Y to Frenet is very susceptible to tiny inaccuracies and not useable. Instead - keeping in mind that the vehicle follows the exact input the planner gives it - I am simply storing the state of the vehicle at my **future** update step and pick it up during the next cycle as velocity/acceleration start state to my jerk-minimized trajectory generator.
 
 **Path planner outline**  
-![alt tag](https://github.com/merbar/CarND-Path-Planning-Project/blob/master/img/pathplanner.png "Path planner outline")
+![alt tag](img/pp_pathplanner.png "Path planner outline")
 
 ### Lag Compensation / Path Smoothing
 

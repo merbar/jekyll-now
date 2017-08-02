@@ -54,7 +54,7 @@ The Support Vector Machine used in this is scikit-learn's LinearSVC. It runs on 
 I am using all channels, as well as histogram binning of the YCrCb colorspace as features. Initial data visualization pointed to YCrCb as a color space with useful and different information in all channels. After many trials and with pointers from the Q&A for spatial and histogram binning parameters, I arrived at the settings in `vehicleDetect_svmVar.py`. For the HOG features, I am using 9 orientation bins, 8 pixels per cell and 2 cells per block - I started out with these fairly standard settings and none of my tests showed noticeably improved performance with different values. Using a small amount of color (16x16) and histogram features (16 bins) helped false positive detection in particular.
 
 *Colorspace exploration (vehicle / non-vehicle)*  
-![Colorspace exploration](output_images/clrExploration1.jpg)
+![Colorspace exploration](img/vehDet-clrExploration1.jpg)
 
 HOG features look very useful across all three channels and are extracted in lines 140-150 in `vehicleDetectUtil.py`. The entire feature extraction is managed in lines 155-222.
 
@@ -82,7 +82,7 @@ I perform a simple sliding window search to extract cropped images for classific
 The SVM method uses 457 windows (overlap: 0.8), while the CNN detection only uses 76 (overlap: 0.7).
 
 *Sliding windows (CNN). Larger window sizes closer to the bottom and 0.7 overlap. 76 total.*  
-![Sliding windows (CNN)](output_images/windows1.jpg)
+![Sliding windows (CNN)](img/vehDet-windows1.jpg)
 
 ### Heat Map
 For each frame, every bounding box that is detected as part of a vehicle by **two** or more bounding boxes adds "heat" to a map. The result is smoothed over eight frames, further thresholded and then fed into scipy's label function to get a single bounding box for each distinct "island" in the heat map (lines 206-221 in `vehicleDetect.py`).
@@ -96,7 +96,7 @@ I am doing two things to prevent false positives:
 I implemented a Car class that keeps track of positions over time (lines 51-87 in `vehicleDetect.py`). Bounding box coordinates are smoothed over six frames. Additionally, I reuse the previous location if the classifier does not detect the car for up to two frames.
 
 *Example frame with labeled image (top left), heat map (top right) and unfiltered sliding-windows detection (bottom right)*  
-![Example frame](output_images/labeling1.jpg)
+![Example frame](img/vehDet-labeling1.jpg)
 
 ---
 ## Video Results

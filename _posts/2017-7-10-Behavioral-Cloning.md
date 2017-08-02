@@ -88,16 +88,16 @@ Sample images
 The following represent sample images used in the model. For better visualization, the steering angle is overlayed and they are 256x256 instead of 64x64.
 
 
-![alt tag](https://github.com/merbar/CarND-Behavioral-Cloning-P3/blob/master/sampleImages/flipped.jpg "Flipped Image") Flipped Image
+![alt tag](img/behCl_flipped.jpg "Flipped Image") Flipped Image
 
 
-![alt tag](https://github.com/merbar/CarND-Behavioral-Cloning-P3/blob/master/sampleImages/brightness.jpg "Reduced Brightness") Left camera with reduced Brightness (center steer angle would be -0.04)
+![alt tag](img/behCl_brightness.jpg "Reduced Brightness") Left camera with reduced Brightness (center steer angle would be -0.04)
 
 
-![alt tag](https://github.com/merbar/CarND-Behavioral-Cloning-P3/blob/master/sampleImages/shadow.jpg "Added random shadow") Center camera with added random shadow
+![alt tag](img/behCl_shadow.jpg "Added random shadow") Center camera with added random shadow
 
 
-![alt tag](https://github.com/merbar/CarND-Behavioral-Cloning-P3/blob/master/sampleImages/stereoImg_shdw.jpg "Left camera image with added shadow") Left camera image with added shadow
+![alt tag](img/behCl_stereoImg_shdw.jpg "Left camera image with added shadow") Left camera image with added shadow
 
 Data normalization
 ---
@@ -120,7 +120,7 @@ https://github.com/commaai/research/blob/master/train_steering_model.py
 For both, I reduced kernel sizes to be 3x3 at most due to my much smaller input images.  
 From the beginning, I got more reliable results from commaAi. The nVidia model would sometimes turn “stale” at higher epoch counts, returning only one steering value for any given input.
 
-![alt tag](https://github.com/merbar/CarND-Behavioral-Cloning-P3/blob/master/sampleImages/model.jpg "Model diagram")
+![alt tag](img/behCl_model.jpg "Model diagram")
 
 I tested two approaches for my **training data generator**.
 
