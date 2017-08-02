@@ -17,7 +17,7 @@ This is part of a series of projects exploring different methods to autonomously
 
 ### Screenshot with debugging output
 
-![alt tag](img/pp_screenshot.jpg "Screenshot with debugging output")
+![Screenshot with debugging output](img/pp_screenshot.jpg)
 
 ## Structure
 
