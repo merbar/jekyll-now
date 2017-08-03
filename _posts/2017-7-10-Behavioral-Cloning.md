@@ -2,7 +2,7 @@
 layout: post
 title: Deep Learning - Behavioral Cloning
 ---
-Teaching a Convolutional Neural Network (CNN) to drive a car in a simulator.
+Teaching a Convolutional Neural Network to drive a car in a simulator.
 
 ### [GitHub repo](https://github.com/merbar/CarND-Behavioral-Cloning-P3)
 
