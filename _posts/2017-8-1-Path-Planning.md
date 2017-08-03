@@ -15,7 +15,8 @@ This is part of a series of projects exploring different methods to autonomously
 * [PID Control](https://github.com/merbar/CarND-PID-Control-Project)
 * [Deep Learning](https://github.com/merbar/CarND-Behavioral-Cloning-P3)
 
-## Result: [YouTube video: Path Planning (2x timelapse)](https://www.youtube.com/watch?v=enjdlzo3z2M)
+## Result: [YouTube video: Path Planning (2x timelapse)](https://www.youtube.com/watch?v=enjdlzo3z2M)  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/enjdlzo3z2M?ecver=1" frameborder="0" allowfullscreen></iframe>
 
 ### Screenshot with debugging output
 
