@@ -10,29 +10,29 @@ In dealing with traffic in Los Angeles and all it's inefficiencies, I developed 
 
 This blog serves as a hub for my ADAS / Autonomous Driving-related software projects. Thank you for your interest!
 
-### Keystone Projects:
-- [Path Planning](https://merbar.github.io/Path-Planning/) : **C++** : Safely driving a vehicle down a crowded highway in a simulator
+### Key Projects (links to blog post):
+- [Path Planning](https://merbar.github.io/Path-Planning/) : **C++** : Safely driving a vehicle down a crowded highway in a simulator  
 Topics: States, State Transitions, Jerk Minimized Trajectories, Feasibility
 
-- [Vehicle Detection](https://merbar.github.io/Vehicle-Detection/) : **Python** : Vehicle detection in real-world monocular video stream
+- [Vehicle Detection](https://merbar.github.io/Vehicle-Detection/) : **Python** : Vehicle detection in real-world monocular video stream via a Deep Neural Net  
 Topics: Deep Learning, Data Augmentation, Sliding Windows, Supervised Learning (Support Vector Machine)
 
-- [Behavioral Cloning](https://merbar.github.io/Behavioral-Cloning/) : **Python** : Teaching a vehicle to drive itself from examples in a simulator
+- [Behavioral Cloning](https://merbar.github.io/Behavioral-Cloning/) : **Python** : Teaching a vehicle to drive itself from examples in a simulator  
 Topics: Deep Learning, Data Augmentation
 
-### Other substantial projects:
+### Other substantial projects (GitHub links):
 
 #### Deep Learning
-- [Traffic Sign Classification](https://github.com/merbar/CarND-Traffic-Signs)  : **Python** : 
+- [Traffic Sign Classification](https://github.com/merbar/CarND-Traffic-Signs)  : **Python**
 
 #### Computer Vision
-- [Lane Line Detection](https://github.com/merbar/CarND-Advanced-Lane-Lines) : **Python** :
+- [Lane Line Detection](https://github.com/merbar/CarND-Advanced-Lane-Lines) : **Python**
 
 #### Control
-- [PID Control](https://github.com/merbar/CarND-PID-Control-Project) : **C++** :
-- [Model Predictive Control](https://github.com/merbar/CarND-MPC-Project) : **C++** :
+- [PID Control](https://github.com/merbar/CarND-PID-Control-Project) : **C++**  
+- [Model Predictive Control](https://github.com/merbar/CarND-MPC-Project) : **C++**
 
 #### Localization / Sensor Fusion
-[Particle Filter](https://github.com/merbar/CarND-Kidnapped-Vehicle-Project) : **C++** :
-[Unscented Kalman Filter](https://github.com/merbar/CarND-Unscented-Kalman-Filter-Project) : **C++** :
-[Extended Kalman Filter](https://github.com/merbar/CarND-Extended-Kalman-Filter-Project) : **C++** :
+[Particle Filter](https://github.com/merbar/CarND-Kidnapped-Vehicle-Project) : **C++**  
+[Unscented Kalman Filter](https://github.com/merbar/CarND-Unscented-Kalman-Filter-Project) : **C++**  
+[Extended Kalman Filter](https://github.com/merbar/CarND-Extended-Kalman-Filter-Project) : **C++**
