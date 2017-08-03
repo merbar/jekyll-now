@@ -12,10 +12,8 @@ Images are fed into the classifier via sliding windows and the output is process
 
 ## Quick links to final results:
 
-* [Deep Learning Solution w/ lane detection](https://youtu.be/IHhLpB5MNTQ) | [w/ additional data](https://youtu.be/DTaLG2DSjyU)  
+* [Deep Learning Solution w/ lane detection](https://youtu.be/IHhLpB5MNTQ)  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IHhLpB5MNTQ?ecver=1" frameborder="0" allowfullscreen></iframe>
-* [SVM solution](https://youtu.be/DOCzH0R3ERc)
-
 ---
 ## Project Files
 
