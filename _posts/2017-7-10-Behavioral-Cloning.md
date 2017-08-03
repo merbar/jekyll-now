@@ -21,6 +21,7 @@ My model finishes both tracks without going off:
 [TRACK 1](https://www.youtube.com/watch?v=3ecda8SnOGI) 
 
 [TRACK 2](https://www.youtube.com/watch?v=cuyR9sAv-80) 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cuyR9sAv-80?ecver=1" frameborder="0" allowfullscreen></iframe>
 
 Model Architecture and Training Strategy
 ---
