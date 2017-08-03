@@ -6,7 +6,7 @@ I am a Software Developer, Technical Animator and Machine Learning enthusiast wi
 
 Depending on production schedule and needs, I have scripted quick prototypes of tools, automated I/O data handling between applications, and wrote fully featured C++ plugins to bridge gaps in the pipeline and increase my team's productivity across multiple software packages in all major operating systems.
 
-In dealing with traffic in Los Angeles and all it's inefficiencies, I developed a passion for Autonomous Driving. The fire was fueled by diving deep into relevant skills via the Self-Driving Car Engineer Nanodegree at Sebastian Thrun's platform, Udacity. I continue being driven by finding creative solutions to technical challenges that can make an immediate and lasting impact on peoples' lives.
+In dealing with traffic in Los Angeles and all it's dangers and inefficiencies, I developed a passion for Autonomous Driving. The fire was fueled by diving deep into relevant skills via the Self-Driving Car Engineer Nanodegree at Sebastian Thrun's platform, Udacity. I continue being driven by finding creative solutions to technical challenges that can make an immediate and lasting impact on peoples' lives.
 
 This blog serves as a hub for my ADAS / Autonomous Driving-related software projects.  
 
