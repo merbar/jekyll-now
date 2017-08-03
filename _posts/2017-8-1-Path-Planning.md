@@ -2,14 +2,13 @@
 layout: post
 title: Path Planning - Highway Driving
 ---
-
-##[GitHub repo](https://github.com/merbar/CarND-Path-Planning-Project)
-
 The goal of this project is to safely navigate around a virtual highway with other traffic that is driving +-10 MPH of the 50 MPH speed limit.
 
 The planning algorithm makes use of States and Jerk Minimized Trajectories in Frenet space.
 
 It requires Udacity's "Term3" version of the simulator, available [here](https://github.com/udacity/self-driving-car-sim/releases).
+
+## [GitHub repo](https://github.com/merbar/CarND-Path-Planning-Project)
 
 This is part of a series of projects exploring different methods to autonomously drive a car around a simulated track. Others are:
 * [MPC Control](https://github.com/merbar/CarND-MPC-Project)
