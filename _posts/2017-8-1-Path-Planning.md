@@ -2,6 +2,9 @@
 layout: post
 title: Path Planning - Highway Driving
 ---
+
+##[GitHub repo](https://github.com/merbar/CarND-Path-Planning-Project)
+
 The goal of this project is to safely navigate around a virtual highway with other traffic that is driving +-10 MPH of the 50 MPH speed limit.
 
 The planning algorithm makes use of States and Jerk Minimized Trajectories in Frenet space.
