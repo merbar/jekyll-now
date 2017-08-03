@@ -12,7 +12,7 @@ This blog serves as a hub for my ADAS / Autonomous Driving-related software proj
 
 ### Key Projects (links to blog post):
 - [Path Planning](https://merbar.github.io/Path-Planning/) : **C++** : Safely driving a vehicle down a crowded highway in a simulator  
-Topics: States, State Transitions, Jerk Minimized Trajectories, Feasibility
+Topics: States, State Transitions, Jerk Minimized Trajectories, Feasibility, Cost Functions
 
 - [Vehicle Detection](https://merbar.github.io/Vehicle-Detection/) : **Python** : Vehicle detection in real-world monocular video stream via a Deep Neural Net  
 Topics: Deep Learning, Data Augmentation, Sliding Windows, Supervised Learning (Support Vector Machine)
