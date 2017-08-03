@@ -2,13 +2,13 @@
 layout: post
 title: Vehicle Detection
 ---
-## [GitHub repo](https://github.com/merbar/CarND-Vehicle-Detection)
-
 Vehicle detection from a monocular RGB video input using two different approaches - Supervised Learning (Support Vector Machine) and Deep Learning. 
 
 The Deep Learning implementation is the more successful of the two since it is considerably faster.
 
 Images are fed into the classifier via sliding windows and the output is processed via a heat map.
+
+## [GitHub repo](https://github.com/merbar/CarND-Vehicle-Detection)
 
 ## Quick links to final results:
 
