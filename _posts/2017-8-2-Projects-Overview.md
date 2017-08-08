@@ -24,6 +24,9 @@ Thank you for your interest!
 
 ### Other substantial projects (GitHub links):
 
+#### Functional Safety
+- [Functional Safety Analysis - Lane Keeping Assist](https://github.com/merbar/CarND-Functional-Safety-Project)  : **PDF**
+
 #### Deep Learning
 - [Traffic Sign Classification](https://github.com/merbar/CarND-Traffic-Signs)  : **Python**
 
