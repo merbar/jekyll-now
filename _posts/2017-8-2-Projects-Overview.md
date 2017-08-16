@@ -25,10 +25,11 @@ Thank you for your interest!
 ### Other substantial projects (GitHub links):
 
 #### Functional Safety
-- [Functional Safety Analysis - Lane Keeping Assist](https://github.com/merbar/CarND-Functional-Safety-Project)  : **PDF**
+- [Functional Safety Analysis - Lane Keeping Assist](https://github.com/merbar/CarND-Functional-Safety-Project) : **PDF**
 
 #### Deep Learning
-- [Traffic Sign Classification](https://github.com/merbar/CarND-Traffic-Signs)  : **Python**
+- [Semantic Segmentation: Road Classification](https://github.com/merbar/CarND-Semantic-Segmentation) : **Python**
+- [Traffic Sign Classification](https://github.com/merbar/CarND-Traffic-Signs) : **Python**
 
 #### Computer Vision
 - [Lane Line Detection](https://github.com/merbar/CarND-Advanced-Lane-Lines) : **Python**
